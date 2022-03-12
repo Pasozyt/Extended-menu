@@ -1,0 +1,37 @@
+.expended-menu {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(21vw);
+    transition: 0.5s;
+    z-index: 2000;
+}
+
+.expended-options {
+    float: left;
+    height: 100vh;
+    width: 21vw;
+    visibility: visible;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.expended-button {
+    margin-top: 70vh;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 26px;
+    background-color: white;
+    position: absolute;
+    left: -27px;
+    top: 0px;
+}
+
+.options {
+    padding: 1vw;
+}
+
+.option-header {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
